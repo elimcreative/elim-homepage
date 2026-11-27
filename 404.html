@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>엘림창작소 · 주소가 바뀌었어요</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://elimcreative.github.io/">
+<script>
+  // /elim-homepage/뒤의 경로와 #, ? 를 그대로 붙여서 새 주소로 이동
+  (function () {
+    var rest = location.pathname.replace(/^\/elim-homepage\/?/, "");
+    location.replace("https://elimcreative.github.io/" + rest + location.search + location.hash);
+  })();
+</script>
+<meta http-equiv="refresh" content="0; url=https://elimcreative.github.io/">
+</head>
+<body style="font-family:sans-serif;text-align:center;padding:48px 16px">
+  <p>엘림창작소 홈페이지 주소가 바뀌었어요.</p>
+  <p><a href="https://elimcreative.github.io/">https://elimcreative.github.io/</a></p>
+</body>
+</html>
